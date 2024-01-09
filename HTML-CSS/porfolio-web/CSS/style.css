@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:ital,wght@0,700;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+.header {
+    background-color: #D6AB2F;
+    color: white;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.header .navbar .logo {
+    font-size: 2em;
+}
+.header .navbar .logo h2 span {
+    color: #191c54;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+li {
+    list-style: none;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 1.2rem 1.4rem;
+}
+
+.header .navbar .menu li a:hover {
+    font-size: 1.1rem;
+    text-decoration: underline;
+    transition: 0.5;
+
+}
+
+.main-content{
+    background-color: #191c54;
+    color: white;
+    margin: 0 auto;
+    width: 80vu;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    gap: 1rem;
+}
+.main-content .info-content {
+    text-shadow: 2px 2px black;
+}
+.main-content .info-content h1{
+    font-size: 3rem;
+}
+.main-content .info-content .douwload-cv{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 2px 3px 5px rgba(150, 50, 253, 0.74);
+    cursor: pointer ;
+}
+
+.main-content img{
+    width: 400px;
+    height: 400px;
+    display: grid;
+}
+
+.portfolio {
+    
+    background-color: #191c54;
+    color: white;
+
+}
+.portfolio .portfolio-header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.portfolio .portfolio-header h2{
+    text-shadow: 3px 3px rgba(150, 50, 253, 0.74);
+}
+
+.portfolio .project-container {
+    width: 80vw;
+    height: vh;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .project-container .card {
+    width: 80vw;
+
+}
+.portfolio .project-container .card .card-img{
+    width: auto;
+    height: 150px;
+    background-image: url(https://sergiosanz.dev/static/b0ad08bfda05fba464bf2927db87772d/6df68/html-css.png);
+    background-size: cover;
+}
+
+.portfolio .project-container .card .card-title{
+    padding: 20px;
+}
+
+.portfolio .project-container .card .card-title h4{
+    font-size: 1.1rem;
+}
+
+.portfolio .project-container .card .card-links{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.contact-sention {
+    width: 100vw;
+    background-color: #191c54;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.contact-container h4 {
+    font-size: 2em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.form-group .text-box {
+    border-radius: 5px;
+    margin-bottom: 1em;
+    border: none;
+    padding: 10px 20px;
+}
+.form-group textarea {
+    height: 100px;
+    padding: 1.2em;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px gray;
+    margin-bottom: 1em;
+}
+.form-group .send-button {
+    padding: 10px 20px;
+    border: none;
+    margin: 1em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: aqua;
+    box-shadow: 2px 2px gray;
+    cursor: pointer;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    height: 200px;
+    width: 100vw;
+    padding: 1em;
+}
+
+.footer-content h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer-content h5 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
